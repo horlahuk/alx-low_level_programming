@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints sententence using puts
- * main: (0)Success
- * return: (0)Success
+ * main -Programming for hello puts
+ * Return: (0)Success
  */
 int main(void)
 {
