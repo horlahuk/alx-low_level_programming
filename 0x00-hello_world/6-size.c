@@ -7,7 +7,6 @@
 int main(void)
 {
 	printf("size of char: %d byte(s)\n", sizeof(char));
-	printf("size of short: %d byte(s)\n", sizeof(short));
 	printf("size of int: %d byte(s)\n", sizeof(int));
 	printf("size of float: %d byte(s)\n", sizeof(float));
 	printf("size of long int: %d byte(s)\n", sizeof(long int));
