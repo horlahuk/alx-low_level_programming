@@ -5,7 +5,7 @@
  * Return: (0) Success
  */
 int main(void)
-{	
+{
 	char alpha[26] = "zyxwvutsrqponmlkjihgfedcba";
 	int i;
 
