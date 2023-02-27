@@ -1,6 +1,7 @@
 #ifndef main_h
 #define main_h
 
+void print_array(int *a, int n);
 void puts_half(char *str);
 void puts2(char *str);
 void rev_string(char *s);
