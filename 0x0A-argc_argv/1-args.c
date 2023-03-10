@@ -5,15 +5,8 @@
  * @argv: argument array
  * Return: integer
  */
-int main(int argc, char **argv)
+int main(int argc, char **argv  __attribute__((unused)))
 {
-	int count = 0;
-
-	count += argc;
-
-	while (**argv++)
-	{
-		printf("%d\n", count);
-	}	
+	printf("%d\n", argc - 1);
 	return (0);
 }
