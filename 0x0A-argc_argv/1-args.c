@@ -11,5 +11,9 @@ int main(int argc, char **argv)
 
 	count += argc;
 
-	printf("%d\n", count);
+	while (**argv++)
+	{
+		printf("%d\n", count);
+	}	
+	return (0);
 }
