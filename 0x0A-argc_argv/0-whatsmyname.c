@@ -6,7 +6,11 @@
  * @argv: argument array
  * Return: int
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	printf("%s\n", argv[0]);
+	while (argc--)
+	{
+		printf("%s\n", *argv++);
+	}
+	exit(EXIT_SUCCESS);
 }
