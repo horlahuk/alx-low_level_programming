@@ -35,6 +35,8 @@ char *_strdup(char *str)
 		return (NULL);
 	saved = new;
 
+	if (str == NULL)
+		return (NULL);
 	while (*str != '\0')
 	{
 		*new = *str;
