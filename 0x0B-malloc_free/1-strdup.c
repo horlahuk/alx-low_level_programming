@@ -40,6 +40,6 @@ char *_strdup(char *str)
 		new++;
 		str++;
 	}
-	new = '\0';
+	*new = '\0';
 	return (saved);
 }
