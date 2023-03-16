@@ -45,7 +45,7 @@ char *_ncpy(char *dest, char *src, int n)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int len1, len2;
+	unsigned int len1, len2;
 	char *result;
 
 	len1 = getLen(s1);
