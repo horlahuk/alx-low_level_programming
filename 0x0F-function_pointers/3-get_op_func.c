@@ -1,9 +1,9 @@
-#include "3-main.h"
+#include "3-calc.h"
 
 /**
  * get_op_func - function that select operator
  * @s: operator passed as argument
- * 
+ *
  * Return: integer
  */
 
@@ -21,6 +21,9 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-
+		if (*(ops[i].op) == *s)
+			return (ops[i].f);
+		i++;
 	}
+	return (NULL);
 }
