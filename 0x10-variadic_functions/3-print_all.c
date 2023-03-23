@@ -57,8 +57,8 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 
 	prt format_func[] = {
-		{'i', print_int},
 		{'c', print_char},
+		{'i', print_int},
 		{'f', print_float},
 		{'s', print_str}
 	};
