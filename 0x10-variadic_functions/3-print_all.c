@@ -2,7 +2,7 @@
 
 /**
  * print_char - prints a char
- *
+ * @arg: arguments
  * Return: void
  */
 void print_char(va_list arg)
@@ -12,7 +12,7 @@ void print_char(va_list arg)
 
 /**
  * print_int - prints an integer
- *
+ * @arg: arguments
  * Return: void
  */
 void print_int(va_list arg)
@@ -22,7 +22,7 @@ void print_int(va_list arg)
 
 /**
  * print_float - print floating numbers
- *
+ * @arg: arguments
  * Return: void
  */
 void print_float(va_list arg)
@@ -32,7 +32,7 @@ void print_float(va_list arg)
 
 /**
  * print_str - prints strings
- *
+ * @arg: arguments
  * Return: void
  */
 void print_str(va_list arg)
@@ -62,7 +62,7 @@ void print_all(const char * const format, ...)
 		{'f', print_float},
 		{'s', print_str}
 	};
-	
+
 	va_start(list, format);
 	while (format && format[i])
 	{
