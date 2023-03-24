@@ -20,14 +20,14 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (separator)
 		{
-			if ((!s) && NULL) 
+			if (!s)
 				printf("(nil)%s", separator);
 			else
 				printf("%s%s", s, separator);
 		}
 		else
 		{
-			if ((!s) && NULL)
+			if (!s)
 				printf("(nil)");
 			else
 				printf("%s", s);
