@@ -8,14 +8,14 @@
  */
 void free_listint(listint_t *head)
 {
-	listint_t temp;
+	struct listint_s *temp;
 
 	while (head != NULL)
 	{
 		temp = head;
 		head = head->next;
 
-		free(temp->n);
+		/*free((void *)temp->n);*/
 		free(temp);
 	}
 }
