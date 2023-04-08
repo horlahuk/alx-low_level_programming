@@ -10,6 +10,9 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int dummy = 0x80000000;
 
+	if (n == 0)
+		_putchar('0');
+
 	while (dummy > 0)
 	{
 		if (n & dummy)
